@@ -1,0 +1,32 @@
+<div class="container">
+  <h1 class="page-title">
+    💱 Conversor de moedas 🪙
+  </h1>
+  <p class="page-subtitle">
+    Converta os valores entre dólar, real, euro e bitcoin.
+  </p>
+  <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+  <label for="moeda">Quais são as moedas que você vai converter?</label>
+  <br>
+  <select id="moeda" name="moeda">
+    <option value="real">Real</option>
+    <option value="dolar">Dólar</option>
+    <option value="euro">Euro</option>
+    <option value="bitcoin">Bitcoin</option>
+  </select>
+  <label id="seta" for="moedaconvertida"> -></label>
+  <select id="moedaconvertida" name="moedaconvertida">
+    <option value="real">Real</option>
+    <option value="dolar">Dólar</option>
+    <option value="euro">Euro</option>
+    <option value="bitcoin">Bitcoin</option>
+  </select>
+  <br>
+  <input type="number" id="valor" placeholder="Insira o valor para ser convertido" required>
+  <br>
+  <button type="submit" onclick="converter()">Converter</button>
+  <br>
+  <h2 id="valorconvertido"></h2>
+</div>
+<a href="https://alura.com.br/" target="_blank">
+  <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
